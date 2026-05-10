@@ -1,0 +1,60 @@
+
+🧾 Dataset Structure (Column Definitions)
+1. Date
+•The transaction or record date.
+•Useful for time-series analysis and trend identification.
+
+2. Product_ID
+•Unique identifier for each product.
+•Used to group and track products across records.
+
+3. Product_Name
+•Name of the product (e.g., T-Shirt, Sneakers).
+•Helps with readability and reporting.
+
+4. Category
+•Product category (e.g., Apparel, Footwear, Accessories).
+•Useful for category-level analysis.
+
+5. Warehouse
+•Location where inventory is stored (e.g., Durban_WH, CapeTown_WH).
+•Enables location-based analysis.
+
+6. Stock_Level
+•Current number of units available in inventory.
+•Key metric for stock monitoring.
+
+7. Reorder_Level
+•Minimum threshold before stock needs replenishment.
+•Used to trigger reorder decisions.
+
+8. Reorder_Quantity
+•Number of units to order when stock reaches reorder level.
+•Helps in supply planning.
+
+9. Supplier
+•Supplier providing the product.
+•Used for supplier performance analysis.
+
+10. Lead_Time_Days
+•Number of days taken by the supplier to deliver goods.
+•Important for supply chain efficiency.
+
+11. Unit_Cost
+•Cost price per unit.
+•Used for cost and profit calculations.
+
+12. Unit_Price
+•Selling price per unit.
+•Used to calculate revenue.
+
+13. Units_Sold
+•Number of units sold on a given day.
+•Indicates demand and sales performance.
+
+14. Units_Ordered
+•Number of units ordered from suppliers.
+•Helps track replenishment activity.
+
+15. Delivery_Status
+•Status of the order (Delivered, Pending, Delayed).
